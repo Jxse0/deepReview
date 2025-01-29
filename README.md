@@ -31,15 +31,6 @@ To debug the extension:
 4. In the top right corner, next to the run symbol, you will see an Comment bubble icon – click it to start the extension.
 5. Depending on your hardware, it may take some time to begin analysis.
 
-## Usage
-Once the extension is running, you can trigger it using the command:
-```sh
-CheckBoss: Annotate
-```
-in the Command Palette (`Ctrl + Shift + P`).
-
-The extension will analyze your code and display suggestions directly in the editor.
-
 ## License
 MIT License
 
