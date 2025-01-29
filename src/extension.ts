@@ -14,6 +14,7 @@ function registerAnnotationCommand(): vscode.Disposable {
   return vscode.commands.registerTextEditorCommand(
     "checkboss.annotate",
     async (textEditor: vscode.TextEditor) => {
+      vscode.window.showInformationMessage("Checking Code ...");
       try {
         const code = getVisibleCodeWithLineNumbers(textEditor);
         const response = await getOllamaResponse(code);
